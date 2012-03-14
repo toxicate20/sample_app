@@ -9,6 +9,7 @@ end
 
 group :test do
   gem 'rspec','2.8.0'
+  gem 'webrat','0.7.3'
 end
 
 group :assets do
