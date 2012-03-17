@@ -12,5 +12,7 @@ SampleApp::Application.routes.draw do
   get "pages/help"
   get "users/new"
   
+  resources :users
+  
 
 end
