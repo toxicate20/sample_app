@@ -13,14 +13,16 @@
 	</head>
 	<body>
 		<div class="container">
-			<%= image_tag("http://railstutorial.org/images/sample_app/logo.png", :alt => "Sample App", :class => "round") %>
-			<nav class="round">
-				<ul>
-					<li><%= link_to "Home",'#' %></li>
-					<li><%= link_to "Help",'#' %></li>
-					<li><%= link_to "Sign In",'#' %></li>
-				</ul>
-			</nav>
+			<header>
+				<%= image_tag("http://railstutorial.org/images/sample_app/logo.png", :alt => "Sample App", :class => "round") %>
+				<nav class="round">
+					<ul>
+						<li><%= link_to "Home",'#' %></li>
+						<li><%= link_to "Help",'#' %></li>
+						<li><%= link_to "Sign In",'#' %></li>
+					</ul>
+				</nav>
+			</header>
 			<section class="round">
 		<%= yield %>				
 			</section>
