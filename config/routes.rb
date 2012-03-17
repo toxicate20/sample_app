@@ -1,4 +1,5 @@
 SampleApp::Application.routes.draw do
+  
   root :to => "pages#home"
   
   match '/contact', :to => 'pages#contact'
@@ -13,6 +14,5 @@ SampleApp::Application.routes.draw do
   get "users/new"
   
   resources :users
-  
 
 end
